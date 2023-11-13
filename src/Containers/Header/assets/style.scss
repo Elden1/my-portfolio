@@ -1,0 +1,80 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    z-index: 2;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 1px -1px;
+
+    transition: 0.5s;
+}
+
+.nav-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-top>a>h2 {
+    color: black;
+    text-decoration-color: transparent;
+
+    transition: 0.5s;
+}
+
+.nav-top>a>h2:hover {
+    text-decoration-color: blue;
+    text-decoration-thickness: 5px;
+}
+
+.nav-content>a {
+    color: black;
+    font-size: large;
+
+    text-decoration-color: transparent;
+
+    transition: 0.5s;
+}
+
+.nav-content>a:hover {
+    text-decoration-color: blue;
+    color: blue;
+    text-decoration-thickness: 3px;
+}
+
+.nav-top>a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.nav-content>a.active {
+    color: blue;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.atTop {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+
+.sticky-relative {
+    position: relative;
+    top: 0;
+    width: 100%;
+}

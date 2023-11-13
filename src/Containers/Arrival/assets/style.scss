@@ -1,0 +1,23 @@
+.main-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('./Outer-Real-Space-Wallpapers.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.typewrite {
+    color: white;
+    pointer-events: none;
+    cursor: default;
+}
+
+.main-title {
+    font-size: 5em;
+}

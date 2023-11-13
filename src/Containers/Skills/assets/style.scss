@@ -1,0 +1,22 @@
+.skills-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+
+    border: 1px solid #cccccc80;
+    border-radius: 10px;
+
+    width: 85%;
+    overflow: hidden;
+    margin: 2vh auto 4vh auto;
+}
+
+.canvas {
+    background: rgba(158, 158, 158, 0.1);
+}

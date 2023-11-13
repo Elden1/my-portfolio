@@ -1,0 +1,39 @@
+.projects-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 90vh;
+    overflow: hidden;
+    margin: auto;
+}
+
+.project-description {
+    background: rgba(158, 158, 158, 0.1);
+    padding: 15px;
+}
+
+.projects-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    background-color: white;
+    border: 1px solid #cccccc80;
+    border-radius: 10px;
+    padding: 20px;
+
+
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    margin: auto;
+}
