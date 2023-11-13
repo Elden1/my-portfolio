@@ -21,7 +21,7 @@ const ProjectSlider = ({ images }) => {
   return (
     <Slider {...settings}>
       {images.map((image) => (
-          <img src={`../${image}`} alt="imag" key={image} loading="lazy"/>
+          <img src={`${image}`} alt="Représentation du projet" key={image} loading="lazy"/>
       ))}
     </Slider>
   );

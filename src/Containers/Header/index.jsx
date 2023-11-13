@@ -39,9 +39,9 @@ let Header = () => {
       <nav className={navBarClass} id="header">
         <div className="nav-top">
           {!isProjectPage ? (
-            <a href="/"><h2>Back to the top</h2></a>
+            <a href="/my-portfolio/"><h2>Back to the top</h2></a>
           ) : (
-            <Link to="/"><h2>Back to the main page</h2></Link>
+            <Link to="/my-portfolio/"><h2>Back to the main page</h2></Link>
           )}
         </div>
         {!isProjectPage && (

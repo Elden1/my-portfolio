@@ -13,16 +13,16 @@ export let dataContent = {
         "id":"1",
         "image": ["Images/Projet-6/main_page.png",  "./Images/Projet5/column_main.png"],
         "modalImg": "Will contain multiple image for the modal",
-        "title":"Title of the second project",
+        "title":"Bluel - Architecte",
         "description": "Pellentesque in est mi. Nam blandit semper massa facilisis, elementum justo eu, condimentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing eli",
         "modalDesc": "will contain the descriptio, for the modal",
-        "skills": ["Javascript", "React", "SCSS"]
+        "skills": ["Javascript", "CSS", "HTML"]
     },
     {
         "id":"2",
         "image": ["Images/Projet-8/main_page.png", "./Images/Projet5/column_main.png"],
         "modalImg": "Will contain multiple image for the modal",
-        "title":"Title of the third project",
+        "title":"Kasa - site de vente immobilière",
         "description": "Pellentesque in est mi. Nam blandit tellus vitae dolor faucibus. In sementum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing eli",
         "modalDesc": "will contain the descriptio, for the modal",
         "skills": ["Javascript", "React", "SCSS"]

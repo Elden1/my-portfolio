@@ -42,13 +42,13 @@ const Profil = () => {
           Mon objectif est de fusionner ma passion pour la technologie avec ma volonté d'apprendre et de grandir constamment. Je suis convaincu que le développement est bien plus qu'une simple compétence technique ; c'est une manière de penser, de résoudre des énigmes et de créer des solutions innovantes.
           </h3>
         </motion.div>
-        <motion.div 
+        <motion.div
           className='profile-img'
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{  duration: 1.5, delay: 0.5 }}
         >
-          <img src='/Images/man.jpg' alt='Betsch Thomas' />
+          <img src='Images/man.jpg' alt='Betsch Thomas' />
         </motion.div>
       </motion.div>
     </motion.div>
