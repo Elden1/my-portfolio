@@ -36,11 +36,10 @@ const Profil = () => {
         >
           <h1 className='profile-txt-title'>Betsch Thomas</h1>
           <h3 className='profile-txt-content'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+          Je m'appelle Thomas Betsch, et je suis un passionné de technologie et me tourne aujourd'hui vers le monde du développement.
           </h3>
           <h3 className='profile-txt-content'>
-            Mi tempus imperdiet nulla malesuada pellentesque elit eget. Id donec ultrices tincidunt arcu non sodales neque. Urna cursus eget nunc scelerisque viverra
-            mauris in. Posuere morbi leo urna molestie at elementum eu facilisis sed.
+          Mon objectif est de fusionner ma passion pour la technologie avec ma volonté d'apprendre et de grandir constamment. Je suis convaincu que le développement est bien plus qu'une simple compétence technique ; c'est une manière de penser, de résoudre des énigmes et de créer des solutions innovantes.
           </h3>
         </motion.div>
         <motion.div
