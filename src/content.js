@@ -11,7 +11,7 @@ export let dataContent = {
     },
     {
         "id":"1",
-        "image": ["Images/Projet-6/main_page.png",  "./Images/Projet5/column_main.png"],
+        "image": ["Images/Projet-6/column_main.png", "Images/Projet-6/exemple_modal.png", "Images/Projet-6/code_exemp.png",  "Images/Projet-6/code_exemple.png"],
         "modalImg": "Will contain multiple image for the modal",
         "title":"Bluel - Architecte",
         "description": "Pellentesque in est mi. Nam blandit semper massa facilisis, elementum justo eu, condimentum ligula. Lorem ipsum dolor sit amet, consectetur adipiscing eli",
