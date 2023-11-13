@@ -36,7 +36,7 @@ const Profil = () => {
         >
           <h1 className='profile-txt-title'>Betsch Thomas</h1>
           <h3 className='profile-txt-content'>
-          Je m'appelle Thomas Betsch, et je suis un passionné de technologie et me tourne aujourd'hui vers le monde du développement.
+          Je m'appelle Thomas Betsch, et je suis un passionné de technologie et me tourne aujourd'hui vers le monde du développement, particulièrement le Frontend avec React et SCSS;
           </h3>
           <h3 className='profile-txt-content'>
           Mon objectif est de fusionner ma passion pour la technologie avec ma volonté d'apprendre et de grandir constamment. Je suis convaincu que le développement est bien plus qu'une simple compétence technique ; c'est une manière de penser, de résoudre des énigmes et de créer des solutions innovantes.
