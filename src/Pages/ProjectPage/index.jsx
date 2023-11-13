@@ -38,7 +38,7 @@ let ProjectPage = () => {
         className="project-slide"
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay : 0.2 }}
         >
           <ProjectSlider 
             images={currentProject.image}
@@ -49,7 +49,7 @@ let ProjectPage = () => {
         className="project-content"
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay : 0.2 }}
         >
           <div className="text">
             <h2>{currentProject.title}</h2>

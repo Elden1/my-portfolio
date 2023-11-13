@@ -11,7 +11,6 @@ let Header = () => {
     function handleScroll() {
       const header = document.getElementById("header");
       const sticky = header.offsetTop;
-      
       if (isProjectPage) {
         header.classList.add("sticky-relative");
         header.classList.remove("atTop");
@@ -25,6 +24,7 @@ let Header = () => {
         }
       }
     }
+
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -32,9 +32,11 @@ let Header = () => {
     };
   }, [isProjectPage]);
       
+  const navBarClass = isProjectPage ? 'nav-bar sticky-relative' : 'nav-bar atTop';
+
   return (
     <header>
-      <nav className="nav-bar atTop" id="header">
+      <nav className={navBarClass} id="header">
         <div className="nav-top">
           {!isProjectPage ? (
             <a href="/"><h2>Back to the top</h2></a>
@@ -43,16 +45,16 @@ let Header = () => {
           )}
         </div>
         {!isProjectPage && (
-            <div className="nav-content">
-                <a href='#profile-section'><h3>Présentation</h3></a>
-                <a href='#projects-section'><h3>Projets</h3></a>
-                <a href='#skills-section'><h3>Compétences</h3></a>
-                <a href='#contact-section'><h3>Contact</h3></a>
-            </div>
+          <div className="nav-content">
+            <a href='#profile-section'><h3>Présentation</h3></a>
+            <a href='#projects-section'><h3>Projets</h3></a>
+            <a href='#skills-section'><h3>Compétences</h3></a>
+            <a href='#contact-section'><h3>Contact</h3></a>
+          </div>
         )}
-        </nav>
-      </header>
-    )
+      </nav>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
