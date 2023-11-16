@@ -35,25 +35,23 @@ let Header = () => {
   const navBarClass = isProjectPage ? 'nav-bar sticky-relative' : 'nav-bar atTop';
 
   return (
-    <header>
       <nav className={navBarClass} id="header">
         <div className="nav-top">
           {!isProjectPage ? (
-            <a href="/my-portfolio/"><h2>Back to the top</h2></a>
+            <a href="/"><h2>Back to the top</h2></a>
           ) : (
-            <Link to="/my-portfolio/"><h2>Back to the main page</h2></Link>
+            <Link to="/"><h2>Back to the main page</h2></Link>
           )}
         </div>
         {!isProjectPage && (
           <div className="nav-content">
-            <a href='#profile-section'><h3>Présentation</h3></a>
-            <a href='#projects-section'><h3>Projets</h3></a>
-            <a href='#skills-section'><h3>Compétences</h3></a>
-            <a href='#contact-section'><h3>Contact</h3></a>
+            <a href='#anchor1'><h3>Présentation</h3></a>
+            <a href='#anchor2'><h3>Projets</h3></a>
+            <a href='#anchor3'><h3>Compétences</h3></a>
+            <a href='#anchor4'><h3>Contact</h3></a>
           </div>
         )}
       </nav>
-    </header>
   );
 }
 

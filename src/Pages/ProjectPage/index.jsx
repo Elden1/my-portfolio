@@ -1,6 +1,7 @@
 import { dataContent } from '../../content';
 import { useParams } from "react-router-dom";
 import { motion, useInView } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import React, { useEffect, useRef } from 'react';
 import ProjectSlider from '../../Components/SliderProject';
 import './assets/style.scss';
@@ -55,6 +56,8 @@ let ProjectPage = () => {
             <h2>{currentProject.title}</h2>
             <p>{currentProject.description}</p>
           </div>
+
+          <article className="projects-elements">
           <div className='skill-content'>
             {currentProject.skills.map((skill, index) => (
             <span key={index} className="skill-item">
@@ -63,6 +66,11 @@ let ProjectPage = () => {
             </span>
             ))}
           </div>
+          <Link className='git-link' to={currentProject.git_repo}>
+                <img src="./Images/git-png.png" alt="Liens vers le repo Git" className='git-link-img'/> 
+                <h2>Repo Git</h2>
+          </Link>
+          </article>
         </motion.div>
       </section>
       <Footer />

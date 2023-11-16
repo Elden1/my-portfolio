@@ -1,5 +1,9 @@
 .container {
     width: 100vh;
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
+    }
 }
 
 .react-multiple-carousel__arrow--right {
@@ -10,11 +14,18 @@
     left: 1px !important;
 }
 
+.card-img {
+    height: 190px;
+
+    @media screen and (max-width: 480px) {
+        height: auto;
+    }
+}
+
 .card-img>img {
     width: 100%;
     object-fit: cover;
 }
-
 
 .card-slide {
     display: block;
@@ -30,6 +41,13 @@
     padding: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
+
+    @media screen and (max-width: 480px) {
+        border: 1px solid rgba(158, 158, 158);
+        padding: 0px 0px 40px 0px !important;
+        height: 100% !important;
+        width: 300px;
+    }
 }
 
 .card-slide:hover {
@@ -56,7 +74,6 @@
 .card-title {
     font-size: 20px;
     margin: 10px 0;
-    /* Add margin for spacing */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -68,4 +85,10 @@
     max-height: 120px;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.react-multi-carousel-dot-list {
+    @media screen and (max-width: 480px) {
+        padding: 5px !important;
+    }
 }

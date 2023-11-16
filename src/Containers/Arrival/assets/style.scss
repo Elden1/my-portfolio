@@ -5,7 +5,7 @@
     justify-content: center;
     margin: 0;
     padding: 0;
-    background-image: url('./Outer-Real-Space-Wallpapers.jpg');
+    background-image: url('./geometric-background-with-copy-space.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -14,10 +14,15 @@
 
 .typewrite {
     color: white;
+    text-decoration: none;
     pointer-events: none;
     cursor: default;
 }
 
 .main-title {
-    font-size: 5em;
+    font-size: 100px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 25px;
+    }
 }

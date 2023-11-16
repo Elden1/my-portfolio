@@ -27,12 +27,15 @@ return(
             variants={containerVariants}
             initial="hidden"
             animate={mainControls}
-            transition={{ duration: 1, delay: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.5 }}
             ref={ref}
         >      
             <Slider />
             <h3 className="project-description">
-                Des projects créés pour mettre en avant mes compétences en développement en collaboration avec OpenClassroom, en utilisant des technologies modernes tels que React, Javascript, NodeJS...
+                Des projets créés pour mettre en avant certaines de mes compétences, en utilisant des technologies modernes telles que React, Redux, et SCSS. 
+                <br />
+                <br />
+                 Les liens GitHub sont disponibles sur la page des projets
             </h3>
         </motion.section>     
     </div> 

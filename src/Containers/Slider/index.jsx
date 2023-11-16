@@ -47,8 +47,8 @@ return (
     <h2 className="card-title">
         {dataProjects.title}
     </h2>
-    <p className="card-content">
-        {dataProjects.description}
+    <p className='card-content'>
+      {dataProjects.sliderDesciption}
     </p>
     <h3 className="card-lang">Langage utilisés</h3>
 
@@ -67,7 +67,9 @@ return (
     return (
       <div className="container">
         <Carousel 
-          responsive={responsive}>
+          responsive={responsive}
+          showDots={true}
+          >
 
         {listProjects}
   

@@ -13,10 +13,14 @@ let App = () => {
     <div className="App">
       <Header />
       <Arrival />
+      <span className="anchor" id="anchor1"></span>
       <Profil />
       <Projects />
+      <span className="anchor" id="anchor2"></span>
       <Skills />
+      <span className="anchor" id="anchor3"></span>
       <Contact />
+      <span className="anchor" id="anchor4"></span>
       <Footer />
     </div>
   );

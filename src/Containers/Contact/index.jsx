@@ -51,14 +51,14 @@ let Contact = () => {
         transition={{ duration: 1.5 , delay: 0.5 }}
         >
             <img 
-                src="../../Images/email-icon-jpg-13.jpg" 
+                src="Images/email-icon-jpg-13.jpg" 
                 alt="symbole email" 
                 className="contact-img"
             />
             <div className="contact-sm-links">
-                <img src="../../Images/icones/instagram.png" alt="" />
-                <img src="../../Images/icones/linkedin.png" alt="" />
-                <img src="../../Images/icones/twitter.png" alt="" />
+                <img src="Images/icones/instagram.png" alt="" />
+                <img src="Images/icones/linkedin.png" alt="" />
+                <img src="Images/icones/twitter.png" alt="" />
             </div>
         </motion.section>
     </motion.div> 

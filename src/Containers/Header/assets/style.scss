@@ -69,12 +69,29 @@
 
 .atTop {
     position: absolute;
-    top: -50px;
+    top: -60px;
     width: 100%;
 }
 
 .sticky-relative {
-    position: fixed;
-    top: 0;
+    position: relative;
+    margin-top: 0;
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        height: auto;
+    }
+
+    .nav-content {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nav-top>a>h2 {
+        font-size: 22px;
+    }
 }

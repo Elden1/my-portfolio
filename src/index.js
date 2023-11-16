@@ -11,7 +11,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/my-portfolio/", element: <App />,
+    path: "/", element: <App />,
   },
   {
     path:"/project/:projectId", 

@@ -62,7 +62,10 @@ let Arrival = () => {
     return (
         <div className="main-section" id='main-section'>
             <h1 className='main-title'>
-            <a href="" className="typewrite" data-period="2000" data-type='[ "Hello !" , "Je suis Thomas.", "Je suis créatif.", "J&apos;aime le design.", "J&apos;aime le développement web." ]'>
+            <a href="" 
+            className="typewrite" 
+            data-period="2000" 
+            data-type='[ "Hello !" , "Je suis Thomas.", "Je suis créatif.", "J&apos;aime le design.", "J&apos;aime le développement web." ]'>
                 <span className="wrap"></span>
             </a>
             </h1>

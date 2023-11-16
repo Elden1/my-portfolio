@@ -10,12 +10,13 @@ let Form = () => {
           return (
             <form className='form' onSubmit={handleSubmit(onSubmit)}>
               <label htmlFor="NomPrenom">Nom et Prénom</label>
-              <input type="text" id="NomPrenom" placeholder='First and last name' {...register("First name", {required: true, maxLength: 80})} />
+              <input type="text" id="NomPrenom" {...register("First name", {required: true, maxLength: 80})} />
               <label htmlFor="Email">Email</label>
-              <input type="text" id="Email" placeholder='Email' {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
+              <input type="text" id="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
               <label htmlFor="mobileNumb">Numéro de téléphone</label>
-              <input type="tel" id="mobileNumb" placeholder='Mobile number'{...register("Mobile number", {required: true, minLength: 6, maxLength: 12})} />
-              <input type="text" id="Message" placeholder="Message" {...register("Message", {required: true, min: 0, maxLength: 999999})} />
+              <input type="tel" id="mobileNumb" {...register("Mobile number", {required: true, minLength: 6, maxLength: 12})} />
+              <label htmlFor="Message">Message</label>
+              <textarea type="text" id="Message"{...register("Message", {required: true})} />
         
               <input type="submit" />
             </form>

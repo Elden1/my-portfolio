@@ -6,11 +6,11 @@ import Chart from 'chart.js/auto';
 
 const Skills = () => {
   const data = {
-    labels: ["React", "Javascript", "PHP", "HTML5", "CSS3", "SCSS"],
+    labels: ["React", "Javascript", "HTML5", "CSS3", "SCSS", "PHP"],
     datasets: [
       {
         label: "Niveau des compétences",
-        data: [90, 85, 50, 100, 100, 100], 
+        data: [90, 85, 100, 100, 100, 50], 
         backgroundColor: 'rgba(75, 192, 192, 0.2)', 
         borderColor: 'rgba(75, 192, 192, 1)', 
         borderWidth: 1,
@@ -40,7 +40,7 @@ const Skills = () => {
       variants={containerVariants}
       initial="hidden"
       animate={mainControls}
-      transition={{ duration: 1, delay: 0.5 }}
+      transition={{ duration: 0.5, delay: 0.5 }}
       ref={ref}
     >
         <motion.h2 className="skills-title" ref={ref}>
@@ -52,7 +52,7 @@ const Skills = () => {
             scales: {
               y: {
                 beginAtZero: true,
-                max: 125, 
+                max: 100, 
               },
             },
           }}

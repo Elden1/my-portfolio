@@ -1,9 +1,11 @@
 .project-page {
-    margin: auto;
+    margin: 0;
+    padding: 0;
     min-height: 100vh;
     background-color: #f7f7ec;
 
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -16,24 +18,33 @@
 }
 
 .project-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     flex: 1;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 
     margin-bottom: 30px;
 }
 
 .project-slide {
     flex: 1;
-    margin-top: 80px;
 
     width: 100vh;
-    padding: 30px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 780px) {
+        width: 95%;
+        padding: 0px;
+    }
+}
+
+.slide-track {
+    height: 80vh;
 }
 
 img {
@@ -70,4 +81,41 @@ p {
 .skill-item:hover {
     background: linear-gradient(266deg, rgba(46, 99, 55, 1) 0%, rgba(53, 113, 63, 1) 47%, rgba(58, 122, 69, 1) 100%);
     transition: 300ms;
+}
+
+.git-link {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.git-link-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.projects-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+    @media screen and (max-width: 780px) {
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+
+.text {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
